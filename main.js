@@ -78,7 +78,7 @@ function convertToBinary(x) {
 
 // something wron with it
 function decimaltooctale(number) {
-  return number.toString(8);
+ return parseInt(number, 8);
 }
 
 function dec2Hex(dec) {
