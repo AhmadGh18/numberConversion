@@ -18,7 +18,7 @@ function getselected() {
     } else if (elemnent == "decimal" && elemnent2 == "binary") {
       p.innerHTML = convertToBinary(NumberEntered.value);
     } else if (elemnent == "decimal" && elemnent2 == "octale") {
-      p.innerHTML = decimaltooctale(NumberEntered.value);
+      p.innerHTML = decimaltooctale(NumberEntered.value.toString());
     } else if (elemnent == "binary" && elemnent2 == "binary") {
       p.innerHTML = "Same result ";
     } else if (elemnent == "decimal" && elemnent2 == "decimal") {
