@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="hold">
+        <div class="text">
+          <div class="kal">
+            <h1>all number conversion</h1>
+            <a href="#cal"> check it</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <h1>All Number congirer</h1>
+    </header>
+    <div class="holder" id="cal">
+      <div class="med">
+        <h2>From</h2>
+        <select name="" id="list" onchange="getselected()">
+          <option value="" readonly>Please Select One</option>
+          <option value="binary">Binary</option>
+          <option value="decimal">decimal</option>
+          <option value="Hexa">hexa</option>
+          <option value="octale">octale</option>
+        </select>
+      </div>
+
+      <div class="med">
+        <h2>To</h2>
+        <select name="" id="list2" onchange="getselected()">
+          <option value="" readonly>Please Select One</option>
+          <option value="binary">Binary</option>
+          <option value="decimal">decimal</option>
+          <option value="Hexa">hexa</option>
+          <option value="octale">octale</option>
+        </select>
+      </div>
+    </div>
+    <div class="in">
+      <form>
+        <input id="inp" type="text" placeholder="enter Number" />
+        <input type="button" class="sp" value="check result" />
+      </form>
+      <div class="result">
+        <h3>Result here :</h3>
+        <p aria-readonly=""></p>
+      </div>
+    </div>
+    <footer></footer>
+
+    <!-- Main div-->
+    <script src="main.js"></script>
+  </body>
+</html>
